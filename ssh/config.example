@@ -1,0 +1,12 @@
+# SSH config example — copy to ~/.ssh/config and fill in real values
+# Never commit the real ~/.ssh/config
+
+Host example-server
+  HostName 1.2.3.4
+  User ubuntu
+  IdentityFile ~/.ssh/id_ed25519
+
+Host github.com
+  HostName github.com
+  User git
+  IdentityFile ~/.ssh/id_ed25519
