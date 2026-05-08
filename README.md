@@ -5,7 +5,7 @@ Reproducible Mac development environment. Clone and run one script to get ~90% c
 ## Quick start
 
 ```bash
-git clone <your-repo-url> ~/code/new-macbook-dev-setup
+git clone https://github.com/BMDuke/new-macbook-dev-setup ~/code/new-macbook-dev-setup
 cd ~/code/new-macbook-dev-setup
 ./install.sh
 ```
